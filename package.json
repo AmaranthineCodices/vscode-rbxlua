@@ -11,16 +11,25 @@
         "Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "rbxlua",
-            "aliases": ["Roblox Lua", "rbxlua"],
-            "extensions": [".rbxs"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "rbxlua",
-            "scopeName": "source.rbxlua",
-            "path": "./syntaxes/rbxlua.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "rbxlua",
+                "aliases": [
+                    "Roblox Lua",
+                    "rbxlua"
+                ],
+                "extensions": [
+                    ".rbxs"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "rbxlua",
+                "scopeName": "source.rbxlua",
+                "path": "./syntaxes/rbxlua.tmLanguage.json"
+            }
+        ]
     }
 }
