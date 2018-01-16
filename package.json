@@ -1,0 +1,26 @@
+{
+    "name": "vscode-rbxlua",
+    "displayName": "vscode-rbxlua",
+    "description": "Adds Roblox Lua support to VS Code.",
+    "version": "0.0.1",
+    "publisher": "AmaranthineCodices",
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "rbxlua",
+            "aliases": ["Roblox Lua", "rbxlua"],
+            "extensions": [".rbxs"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "rbxlua",
+            "scopeName": "source.rbxlua",
+            "path": "./syntaxes/rbxlua.tmLanguage.json"
+        }]
+    }
+}

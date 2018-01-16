@@ -1,0 +1,24 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Roblox Lua",
+	"patterns": [
+		{
+			"name": "support.variable.rbxlua",
+			"match": "\\b(workspace|game|script|plugin|shared)\\b"
+		},
+		{
+			"name": "support.class.rbxlua",
+			"match": "\\bEnum\\.?\\w*\\.?\\w*\\b"
+		},
+		{
+			"name": "support.class.rbxlua",
+			"match": "\\b(Axes|BrickColor|CFrame|Color3|ColorSequence|ColorSequenceKeypoint|Faces|Instance|NumberRange|NumberSequence|NumberSequenceKeypoint|PhysicalProperties|Ray|Rect|Region3|Region3int16|TweenInfo|UDim|UDim2|Vector2|Vector3|Vector3int16)\\b"
+		},
+		{
+			"include": "source.lua"
+		}
+	],
+	"repository": {
+	},
+	"scopeName": "source.rbxlua"
+}
