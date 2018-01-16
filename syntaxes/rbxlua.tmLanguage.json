@@ -20,7 +20,7 @@
 					"name": "support.function.rbxlua"
 				}
 			},
-			"match": "\\b(debug\\.(traceback|profilebegin|profileend)|math\\.(noise|clamp)|delay|elapsedTime|require|settings|spawn|tick|time|typeof|UserSettings|version|wait|warn)\\s*\\("
+			"match": "\\b(debug\\.(traceback|profilebegin|profileend)|math\\.(noise|clamp)|utf8\\.(char|codes|codepoint|len|offset|graphemes)|delay|elapsedTime|require|settings|spawn|tick|time|typeof|UserSettings|version|wait|warn)\\s*\\("
 		},
 		{
 			"include": "source.lua"
