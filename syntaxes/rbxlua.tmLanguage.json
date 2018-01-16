@@ -15,6 +15,10 @@
 			"match": "\\b(Axes|BrickColor|CFrame|Color3|ColorSequence|ColorSequenceKeypoint|Faces|Instance|NumberRange|NumberSequence|NumberSequenceKeypoint|PhysicalProperties|Ray|Rect|Region3|Region3int16|TweenInfo|UDim|UDim2|Vector2|Vector3|Vector3int16)\\b"
 		},
 		{
+			"name": "support.function.rbxlua",
+			"match": "\\b(debug\\.(traceback|profilebegin|profileend)|math\\.(noise|clamp)|delay|elapsedTime|require|settings|spawn|tick|time|typeof|UserSettings|version|wait|warn)\\s*\\("
+		},
+		{
 			"include": "source.lua"
 		}
 	],
