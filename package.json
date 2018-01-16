@@ -3,7 +3,7 @@
     "displayName": "vscode-rbxlua",
     "description": "Adds Roblox Lua support to VS Code.",
     "repository": "https://github.com/AmaranthineCodices/vscode-rbxlua",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "publisher": "AmaranthineCodices",
     "engines": {
         "vscode": "^1.19.0"
